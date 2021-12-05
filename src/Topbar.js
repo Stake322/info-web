@@ -1,40 +1,83 @@
+/* eslint-disable no-undef */
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
+import { Header, Menu } from 'semantic-ui-react'
 import { Container, Segment } from 'semantic-ui-react'
+import Project1 from './projects/project1.js';
+import Project2 from './projects/project2.js';
+
 
 class Topbar extends Component {
-    state = { activeItem: '123' }
+    state = { activeItem: 'Проект 1' }
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
+    gitClick() {
+        window.open("https://github.com/Stake322")
+    }
+    sylarClick() {
+        window.open("https://github.com/Stake322")
+    }
+
+    segmentStyle = {
+        position: "sticky",
+        top: "0%",
+        width: "100%",
+        display: 'flex',
+        justifyContent: "center",
+        alingItems: 'center',
+        backgroundImage: 'url(https://wallpaperaccess.com/full/3705495.jpg)'
+    }
+
+    contantStyle = {
+        position: "absolute",
+        left: "90%",
+        top: "-10%",
+    }
     render() {
         const { activeItem } = this.state
+
         return (
-            <Container >
-                <Segment textAlign='center' color="purple" inverted compact style={{position: "sticky", top:"0%", width: "100%%", marginLeft: "auto", marginRight: "auto"}}>
-                    <Menu size='small' color="purple" inverted>
+            <div>
+
+                <Segment textAlign='center' color="purple" style={this.segmentStyle}>
+                    <Menu size='large' color="purple" inverted >
                         <Menu.Item
-                            name='ОБО МНЕ'
+                            name='Проект 1'
                             active={activeItem === '1'}
                             onClick={this.handleItemClick}
                         />
                         <Menu.Item
-                            name='НАВЫКИ'
+                            name='Проект 2'
                             active={activeItem === '2'}
                             onClick={this.handleItemClick}
                         />
                         <Menu.Item
-                            name='ИНТЕРЕСНЫЕ ПРОЕКТЫ'
+                            name='SylarboostWebSite'
                             active={activeItem === '3'}
-                            onClick={this.handleItemClick}
+                            onClick={this.sylarClick}
+                            icon="like"
                         />
                         <Menu.Item
-                            name='ИТОГИ'
+                            name='GIT'
                             active={activeItem === '4'}
-                            onClick={this.handleItemClick}
+                            onClick={this.gitClick}
+                            icon="github"
                         />
                     </Menu>
+
+                    <Segment size="mini" floated='right' color="purple" inverted style={this.contantStyle}>
+                        <p> <strong>Контакты:</strong> <br />
+                            Телефон: +79276295729 <br />
+                            Email: stake164rus@mail.ru</p>
+                    </Segment>
+
                 </Segment >
-            </Container >
+
+                {activeItem === "Проект 1" ?
+                    <Project1 />
+                    :
+                    <Project2 />}
+
+            </div>
         )
     }
 }

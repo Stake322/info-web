@@ -10,7 +10,7 @@ const Test = () => {
 
     return (
         <div>
-            <iframe height="100px" width="350px" frameborder="0"  src={src} allowfullscreen></iframe>
+            <iframe height="100px" width="350px" frameBorder="0"  src={src} allowFullscreen></iframe>
         </div>
     )
 }
