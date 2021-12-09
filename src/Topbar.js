@@ -17,7 +17,7 @@ class Topbar extends Component {
         window.open("https://github.com/Stake322")
     }
     sylarClick() {
-        window.open("https://new-version.d3nk39ydzwnpsr.amplifyapp.com/#/")
+        window.open("https://stake322.github.io/sylarboost-gh-page/#/")
 
     }
 
