@@ -1,0 +1,41 @@
+{
+    "project1": {
+        "title1": "Lorem №1",
+        "title2": "Lorem ipsum dolor",
+        "title3": "Amet:",
+        "description": {
+            "part1": "Praesent fringilla nec augue eu fermentum. Nam eget rhoncus velit. Integer in sagittis metus. Donec mollis, nulla in vulputate efficitur, libero eros ornare neque, sagittis vulputate orci lacus ut ante.",
+            "part2": "Praesent sit amet est pharetra, rhoncus massa nec, sollicitudin dolor. Vivamus et dui sed risus eleifend feugiat. Quisque et metus iaculis, sollicitudin ex vel, auctor velit. Aliquam tortor lectus, posuere et hendrerit id, scelerisque sed libero.",
+            "part3": "Curabitur augue turpis, mattis in ultricies sit amet, malesuada non est. Mauris eget ante sed metus auctor commodo a vel orci. Vestibulum orci quam, sollicitudin non tempus sit amet, viverra et felis. Nulla sit amet imperdiet lacus. ",
+            "part4": "Nullam vestibulum condimentum eros at sodales. Duis in turpis purus. Nullam iaculis tellus ut nisi varius maximus. Praesent erat metus, luctus quis laoreet in, bibendum at dolor. Pellentesque vehicula tortor nec ipsum molestie gravida. Integer et placerat purus. Nulla a nunc felis. Suspendisse vehicula lorem nibh, sed sollicitudin tellus efficitur sed. Phasellus tempor ipsum enim, consequat porttitor dolor dictum ut. In ut posuere magna. Quisque molestie placerat velit nec semper. Suspendisse consequat eros et tempus tempor.",
+            "part5": "Integer tincidunt quis magna sit amet pulvinar. Sed felis dolor, malesuada non tellus eu, mattis ornare dolor. Fusce porta, lorem nec euismod vulputate, quam urna dignissim ipsum, sit amet suscipit urna enim non risus. Etiam felis odio, rutrum nec odio et, gravida efficitur augue. Suspendisse faucibus ante mi."
+        },
+        "subheading": {
+            "part1": "Duis at lacus orci",
+            "part2": "Suspendisse ligula massa, iaculis eget odio sed, blandit pretium odio",
+            "part3": "Vestibulum ac felis arcu",
+            "part4": "Suspendisse bibendum ultricies urna sit amet lobortis",
+            "part5": "Aliquam massa purus, mattis et ante ut, scelerisque placerat dui",
+            "part6": "Mauris vulputate condimentum ligula ac gravida"
+        }
+    },
+    "project2": {
+        "title1": "Lorem №2",
+        "title2": "Neque porro quisquam",
+        "title3": "Amet:",
+        "description": {
+            "part1": "Etiam vel lacinia felis, ut faucibus purus. In ut eleifend orci. Morbi condimentum enim eu malesuada commodo. Integer at tristique ligula, vel ultricies leo. Sed convallis suscipit dolor vitae interdum. Quisque faucibus risus justo, ac eleifend sem pharetra ac.",
+            "part2": "Duis tempus eleifend quam, et elementum justo commodo id. Etiam diam elit, blandit sed iaculis vel, efficitur vitae diam. Etiam aliquam sapien justo, eu vulputate augue porttitor vel.",
+            "part3": "Pellentesque pellentesque diam vel mollis feugiat. Quisque viverra lectus ut congue sagittis. Integer eu nisl a lectus tincidunt vehicula ac quis felis. Sed quis blandit diam. Sed tellus orci, semper et tincidunt eget, efficitur eu odio. Nulla dapibus cursus ornare. Donec suscipit est molestie erat suscipit malesuada",
+            "part4": "Etiam venenatis lobortis lectus quis feugiat. Nullam dictum purus a efficitur mattis. Mauris eu tortor ligula. Nam lectus est, vulputate nec justo eu, scelerisque fermentum nulla. Duis bibendum sapien eget lobortis imperdiet. Ut varius maximus nulla, nec sodales justo vulputate vel.",
+            "part5": "Cras sit amet arcu lobortis, ultrices eros in, porttitor purus. Praesent nisl tortor, pretium id lacinia a, vehicula at justo. Praesent sit amet est pharetra, rhoncus massa nec, sollicitudin dolor. Vivamus et dui sed risus eleifend feugiat. Quisque et metus iaculis, sollicitudin ex vel, auctor velit. Aliquam tortor lectus, posuere et hendrerit id, scelerisque sed libero."
+        },
+        "subheading": {
+            "part1": "Etiam condimentum magna ut auctor dictum",
+            "part2": "Vestibulum ac felis arcu. In sit amet ex gravida nulla auctor elementum",
+            "part3": "Maecenas scelerisque mollis neque, id eleifend est porttitor ac",
+            "part4": "Donec efficitur convallis posuere",
+            "part5": "Donec efficitur convallis posuere"
+        }
+    }
+}

@@ -4,9 +4,12 @@ import { Header, Menu } from 'semantic-ui-react'
 import { Container, Segment } from 'semantic-ui-react'
 import Project1 from './projects/project1.js';
 import Project2 from './projects/project2.js';
+import Change from './changeLanguage.js';
 
 
 class Topbar extends Component {
+
+
     state = { activeItem: 'Проект 1' }
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -30,7 +33,12 @@ class Topbar extends Component {
     contantStyle = {
         position: "absolute",
         left: "90%",
-        top: "-10%",
+        top: "0%",
+    }
+    buttonStyle = {
+        position: "absolute",
+        left: "0%",
+        top: "20%",
     }
     render() {
         const { activeItem } = this.state
@@ -39,6 +47,9 @@ class Topbar extends Component {
             <div>
 
                 <Segment textAlign='center' color="purple" style={this.segmentStyle}>
+                    <Segment size="mini" floated='left' color="purple" inverted style={this.buttonStyle}>
+                        <Change />
+                    </Segment>
                     <Menu size='large' color="purple" inverted >
                         <Menu.Item
                             name='Проект 1'
