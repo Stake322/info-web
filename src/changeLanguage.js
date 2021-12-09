@@ -16,8 +16,8 @@ const Change = () => {
 
     return (
         <div>
-          <Button compact  color='blue' onClick={() => changeLanguage("ru")}>RU</Button>
-          <Button compact  color='blue' onClick={() => changeLanguage("lorem")}>LOREM</Button>
+          <Button compact  color='pink' onClick={() => changeLanguage("ru")}>RU</Button>
+          <Button compact  color='pink' onClick={() => changeLanguage("lorem")}>LOREM</Button>
         </div>
     )
 }

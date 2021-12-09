@@ -14,7 +14,7 @@ class Topbar extends Component {
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
     gitClick() {
-        window.open("https://github.com/Stake322")
+        window.open("https://new-version.d3nk39ydzwnpsr.amplifyapp.com/#/")
     }
     sylarClick() {
         window.open("https://github.com/Stake322")
